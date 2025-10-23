@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{B1E5E5E5-1234-4567-8901-123456789012}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{F1E5E5E5-1234-4567-8901-123456789012}"
+	ProjectSection(SolutionItems) = preProject
+		album-viewer\index.html = album-viewer\index.html
+		album-viewer\package.json = album-viewer\package.json
+		album-viewer\README.md = album-viewer\README.md
+		album-viewer\tsconfig.json = album-viewer\tsconfig.json
+		album-viewer\vite.config.ts = album-viewer\vite.config.ts
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "albums-api", "albums-api\albums-api.csproj", "{A2E6739F-14CD-40A6-9B35-08C908844A99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Debug|x64.Build.0 = Debug|Any CPU
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Debug|x86.Build.0 = Debug|Any CPU
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Release|x64.ActiveCfg = Release|Any CPU
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Release|x64.Build.0 = Release|Any CPU
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Release|x86.ActiveCfg = Release|Any CPU
+		{A2E6739F-14CD-40A6-9B35-08C908844A99}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2E6739F-14CD-40A6-9B35-08C908844A99} = {B1E5E5E5-1234-4567-8901-123456789012}
+	EndGlobalSection
+EndGlobal
