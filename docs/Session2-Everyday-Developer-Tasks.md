@@ -114,6 +114,11 @@ Each comment provides context-specific suggestions that you can accept, modify, 
 
 - after reviewing the changes you can use github copilot to generate commit messages for you.Use the pen icon to do so. If you create a new PR from inside VS  you can enable copilot to summarize a commit message on the pr for you as well as show the comments you saw previously inline. 
 
+## Push the commit and create a PR
+
+
+- after you create the commit go to your PR and enable copilot review of the code. Then get the changes pulled in your IDE and see the inline commments inside your code as well.
+
 ---
 
 **Remember**: These everyday tasks showcase Copilot's versatility beyond simple code completion. Use these features to improve code quality, security, and maintainability in your daily development work!
